@@ -8,5 +8,5 @@ class Animal(metaclass=ABCMeta):
         print('Eating...')
     
     @abstractmethod
-    def num_legs():
+    def num_legs(self):
         pass
